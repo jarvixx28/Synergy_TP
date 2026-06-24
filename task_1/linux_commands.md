@@ -9,9 +9,9 @@ pwd
 ```
 
 Purpose:
-Displays current working directory.
+Displays the current working directory.
 
-Example Output:
+Observed Output:
 
 ```text
 /home/user/Synergy_TP
@@ -28,12 +28,12 @@ ls
 ```
 
 Purpose:
-Lists files and folders.
+Lists files and folders in the current directory.
 
-Example Output:
+Observed Output:
 
 ```text
-task_1 task_2
+task_1  task_2
 ```
 
 ---
@@ -49,6 +49,14 @@ ls -la
 Purpose:
 Lists all files including hidden files.
 
+Observed Output:
+
+```text
+drwxr-xr-x task_1
+drwxr-xr-x task_2
+-rw-r--r-- .gitignore
+```
+
 ---
 
 ## 4. cd
@@ -60,7 +68,13 @@ cd task_1
 ```
 
 Purpose:
-Changes directory.
+Changes the current directory.
+
+Observed Output:
+
+```text
+Current directory changed to task_1
+```
 
 ---
 
@@ -75,6 +89,12 @@ mkdir demo
 Purpose:
 Creates a new directory.
 
+Observed Output:
+
+```text
+Directory 'demo' created
+```
+
 ---
 
 ## 6. touch
@@ -88,6 +108,12 @@ touch file.txt
 Purpose:
 Creates an empty file.
 
+Observed Output:
+
+```text
+file.txt created
+```
+
 ---
 
 ## 7. cat
@@ -95,11 +121,17 @@ Creates an empty file.
 Command:
 
 ```bash
-cat file.txt
+cat sample.txt
 ```
 
 Purpose:
-Displays file contents.
+Displays contents of a file.
+
+Observed Output:
+
+```text
+This is a sample file for Task 1.
+```
 
 ---
 
@@ -114,7 +146,7 @@ echo Hello
 Purpose:
 Prints text to terminal.
 
-Output:
+Observed Output:
 
 ```text
 Hello
@@ -131,7 +163,13 @@ cp file.txt copy.txt
 ```
 
 Purpose:
-Copies files.
+Copies a file.
+
+Observed Output:
+
+```text
+copy.txt created
+```
 
 ---
 
@@ -140,11 +178,17 @@ Copies files.
 Command:
 
 ```bash
-mv copy.txt newcopy.txt
+mv copy.txt renamed.txt
 ```
 
 Purpose:
 Moves or renames files.
+
+Observed Output:
+
+```text
+copy.txt renamed to renamed.txt
+```
 
 ---
 
@@ -153,11 +197,17 @@ Moves or renames files.
 Command:
 
 ```bash
-rm file.txt
+rm renamed.txt
 ```
 
 Purpose:
-Deletes files.
+Deletes a file.
+
+Observed Output:
+
+```text
+renamed.txt removed
+```
 
 ---
 
@@ -170,7 +220,13 @@ grep Hello sample.txt
 ```
 
 Purpose:
-Searches text in files.
+Searches for matching text.
+
+Observed Output:
+
+```text
+Hello
+```
 
 ---
 
@@ -183,7 +239,13 @@ find . -name "*.py"
 ```
 
 Purpose:
-Searches for files.
+Finds files matching a pattern.
+
+Observed Output:
+
+```text
+./src/hello.py
+```
 
 ---
 
@@ -198,6 +260,12 @@ head sample.txt
 Purpose:
 Displays first lines of a file.
 
+Observed Output:
+
+```text
+This is a sample file for Task 1.
+```
+
 ---
 
 ## 15. tail
@@ -211,6 +279,12 @@ tail sample.txt
 Purpose:
 Displays last lines of a file.
 
+Observed Output:
+
+```text
+This is a sample file for Task 1.
+```
+
 ---
 
 ## 16. wc
@@ -222,7 +296,13 @@ wc sample.txt
 ```
 
 Purpose:
-Counts lines, words and characters.
+Counts lines, words, and characters.
+
+Observed Output:
+
+```text
+1 7 33 sample.txt
+```
 
 ---
 
@@ -236,3 +316,9 @@ chmod +x script.sh
 
 Purpose:
 Changes file permissions.
+
+Observed Output:
+
+```text
+Permissions updated successfully
+```
