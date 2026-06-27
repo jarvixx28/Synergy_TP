@@ -1,0 +1,27 @@
+{
+    "total_rows": 11,
+    "unique_students": 10,
+    "duplicate_rows": 1,
+    "missing_values": {
+        "student_id": 0,
+        "name": 0,
+        "domain": 0,
+        "attendance_percent": 1,
+        "score": 1,
+        "study_hours": 0,
+        "height": 0,
+        "weight": 1,
+        "submitted": 0
+    },
+    "column_types": {
+        "student_id": "str",
+        "name": "str",
+        "domain": "str",
+        "attendance_percent": "str",
+        "score": "str",
+        "study_hours": "str",
+        "height": "str",
+        "weight": "str",
+        "submitted": "str"
+    }
+}
