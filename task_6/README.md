@@ -34,8 +34,8 @@ The report also contains:
 
 ## Files
 
-* `TP_Report_Task6.docx` – Editable technical report.
-* `TP_Report_Task6.pdf` – PDF version of the report for submission.
+* `Software_ML_Taskphase_Report.docx` – Editable technical report.
+* `Software_ML_Taskphase_Report.pdf` – PDF version of the report for submission.
 
 ---
 
